@@ -1,0 +1,26 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+h1,
+h2 {
+  background-color: #c4c4c4;
+  color: #005677;
+}
+header {
+  padding-top: 10px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+h1 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 85.69%;
+  text-align: center;
+}
+ footer{
+    background-color: #005677;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+ }
