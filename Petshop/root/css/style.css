@@ -1,0 +1,21 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0pt;
+}
+.ofertas{
+    background-color: black;
+    color: white;
+}
+.menu{
+   background-color: #F0A83E;
+}
+footer{
+    background-color: #3C2313;
+    color: white;
+    margin: 5pt;
+}
+#derechos{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

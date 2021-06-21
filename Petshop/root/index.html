@@ -4,43 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>FrontCat&Dog</title>
 </head>
 <body>
     <header>
-        <p>Grandes ofertas en comederos 
-            <ul type="none">
-                <li>Idioma</li>
-                <li>Moneda</li>
-            </ul>
-        </p>
-        <p>
+        <section class="ofertas"> 
+             <span>Grandes ofertas en comederos </span>
+             <span class=Idioma>
+                 <a href="#">Español</a>
+             </span>
+             <span class="moneda">
+                 <a href="#">ARG$</a>
+             </span>
+        </section>
+        <section class="menu">
+            <a href="#">
             <img src="img/Logo.svg" alt="Logo de la pagina.">
+            </a>
             <nav>
-                <ul>
-                    <li>Categorías</li>
-                    <li>Pets</li>
-                    <li>Nosotros</li>
-                    <li>Contactanos</li>
+                <ul type="none">
+                    <li> <a href="#"><i class="fas fa-paw"></i> Categorias</a></li>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Pets</a></li>
+                    <li> <a href="#"> <i class="fas fa-paw"></i> Nosotros</a></li>
+                    <li> <a href="#"> <i class="fas fa-paw"></i> Contactanos</a> </li>
                 </ul>
             </nav>
-        </p>
+        </section>
     </header>
     <main>
-        <section>
-            <img src="img/Comida.png" alt="Foto del alimento.">
-            <p>¡Es un placer tenerte aquí!</p>
+        <section class="banner">
+            <img src="./img/Comida.PNG" alt="COMIDA">
+            <div>
+            <h2>¡Es un placer tenerte aquí!</h2>
+            </div>
+            <div>
             <p>¡Comederos en descuento!</p>
-            <p>COMEDEROS</p>
+            </div>
+                <a href="#">COMEDEROS</a>
         </section>
-        <section id="ProductosDestacados">
-            <img src="img/pawprint.svg" alt="Patita">
+        <section class="ProductosDestacados">
+            <img src="img/pawprint 1.svg" alt="Patita">
             <h2>Productos Destacados</h2>
-            <ul>
-                <li>Comederos</li>
-                <li>Accesorios</li>
-                <li>Comida</li>
-            </ul>
+                <span> <a href="#"> Comederos </a></span>
+                <span> <a href="#"> Accesorios </a></span>
+                <span> <a href="#"> Comida </a></span>
             <ul type="none">
                 <li><ul type="none">
                     <li><img src="img/churrasquito.png" alt="Churrasquito"></li>
@@ -61,7 +72,14 @@
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <section class="contactos" >
+        <ul type="none">
+            <li> <img src="./img/localizacion.png" alt="iconoloc"> Localidad </li>
+            <li> <img src="./img/telefono.png" alt="iconotel"> Teléfono </li>
+            <li> <img src="./img/correo.png" alt="iconocorreo"> Correo </li>
+        </ul>
+        </section>
+        <p id="derechos">Todos los derechos reservados Front End</p>
     </footer>
 </body>
 </html>
