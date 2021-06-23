@@ -3,7 +3,6 @@
   font-family: "Maven Pro", sans-serif;
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
 /** Estilo para banner**/
 .banner {
@@ -75,21 +74,13 @@
     text-align: left;
     line-height: 20pt;
 }
-#lemonpie {
-  text-decoration: underline;
-}
-#petshop {
-  text-decoration: underline;
-}
-#batman {
-  text-decoration: underline;
-}
-#cartelera{
-    text-decoration: underline;
-}
+
 /** Estilo para footer **/
 footer {
   background-color: #b6c5b8;
   opacity: 0.3;
   text-align: center;
+}
+.footerlink{
+    text-decoration: none;
 }
