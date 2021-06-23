@@ -84,6 +84,9 @@
 #batman {
   text-decoration: underline;
 }
+#cartelera{
+    text-decoration: underline;
+}
 /** Estilo para footer **/
 footer {
   background-color: #b6c5b8;

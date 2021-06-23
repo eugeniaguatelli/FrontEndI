@@ -1,0 +1,90 @@
+*{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.descuentos{
+    background-color: #1CD1B0;
+    padding: 10px 10px;
+}
+header.navegador{
+    background-color: #00669F;
+    padding: 28px 28px;
+}
+
+#cartas {
+    text-align: center;
+    /* Temp */
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+section.carta{
+    display: inline-block;
+    position: relative;
+    background-image: url('../img/backbatman.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    background-color: #F3F3F3; 
+    margin: 0 20px;
+}
+
+.imagenfondo {
+    width: 300px;
+    height: 190px;
+}
+.like{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+.carta.harley .imagenfondo{ 
+    background-image: url('../img/backharley.png');
+
+}
+
+.imagenperfil {
+    position: absolute;
+    background-image: url("../img/batman.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    top: 140px;
+    left: 90px;
+}
+
+.carta.harley .imagenperfil{
+    background-image: url('../img/harley.png');
+}
+
+.contenido h2{
+    margin-top: 74px;
+}
+.contenido p{
+    margin-top: 10px;
+    padding: 16px;
+    text-align: left;
+}
+
+.vermas{
+    background-color: #00669F;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.vermas a{
+    color: #fff;
+    text-decoration: none;
+}
+footer{
+    background-color: #00669F;
+    color:white;
+    padding: 20px 0px;
+}
