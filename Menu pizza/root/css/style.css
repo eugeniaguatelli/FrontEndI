@@ -1,0 +1,45 @@
+*{
+    font-family:'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #222222;
+    font-size: 16px;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+}
+
+header .logopizza{
+display: flex;
+align-items: center;
+width: 254px;
+height: 80px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 13px;
+    flex-direction: row;
+    align-items: center;
+}
+main{
+    display: flex;
+}
+.envio{
+    background-image: url('../img/delivery.jpg');
+    width: 490px;
+    height: 350px;
+}
+.envio h2{
+    color: #FC200C;
+}
+.envio span{
+    color: white;
+}
