@@ -1,9 +1,16 @@
+/* Atributos globales */
 *{
-    font-family:'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+/* sección header */
+
 div.descuentos{
     background-color: #1CD1B0;
     padding: 10px 10px;
@@ -16,42 +23,61 @@ header.navegador{
     z-index: 10;
 }
 
+/* seccion main cartas */
+
 #cartas {
+    display: flex;
     text-align: center;
-    /* Temp */
     margin-bottom: 200px;
     margin-top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 section.carta{
-    display: inline-block;
     position: relative;
-    background-image: url('../img/backbatman.png');
     background-size: contain;
     background-repeat: no-repeat;
     width: 300px;
     background-color: #F3F3F3; 
     margin: 0 20px;
+    
 }
 
 .imagenfondo {
     width: 300px;
     height: 190px;
 }
+
 .like{
 position: absolute;
 top: 10px;
 left: 10px;
 }
 
+.carta .imagenfondo{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.carta.batman .imagenfondo{
+    background-image: url('../img/backbatman.png');
+}
+
 .carta.harley .imagenfondo{ 
     background-image: url('../img/backharley.png');
+}
 
+.carta.maravilla .imagenfondo{
+    background-image: url('../img/backmujermaravilla.png');
+}
+
+.carta.superman .imagenfondo{
+    background-image: url('../img/backsuperman.png');
 }
 
 .imagenperfil {
     position: absolute;
-    background-image: url("../img/batman.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -61,8 +87,20 @@ left: 10px;
     left: 90px;
 }
 
+.carta.batman .imagenperfil{
+    background-image: url('../img/batman.png');
+}
+
 .carta.harley .imagenperfil{
     background-image: url('../img/harley.png');
+}
+
+.carta.carta.maravilla .imagenperfil{
+    background-image: url('../img/mujermaravilla.png');
+}
+
+.carta.superman .imagenperfil{
+    background-image: url('../img/supermantablet.png');
 }
 
 .contenido h2{
@@ -70,8 +108,9 @@ left: 10px;
 }
 .contenido p{
     margin-top: 10px;
-    padding: 16px;
-    text-align: left;
+    text-align: left; 
+    height: 300px;
+    padding: 30px 30px 0 30px;
 }
 
 .vermas{
@@ -86,8 +125,32 @@ left: 10px;
     color: #fff;
     text-decoration: none;
 }
+
+/* sección footer */
+
 footer{
+    position: relative;
+    display: flex;
     background-color: #00669F;
     color:white;
-    padding: 20px 0px;
+    padding: 30px 0px;
+    justify-content: center;
+}
+
+footer .logogit{
+    background-image: url('../img/github.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 165px;
+    height: 45px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    section.carta {
+        margin-bottom: 20px;
+    }
 }

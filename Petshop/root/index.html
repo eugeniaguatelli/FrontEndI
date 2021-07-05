@@ -11,16 +11,18 @@
     <title>FrontCat&Dog</title>
 </head>
 <body>
+    <div class="descuentos">
+    <span>Grandes ofertas en comederos </span>
+    <section class="ofertas"> 
+        <span class="Idioma">
+            <a href="#">Español</a>
+        </span>
+        <span class="moneda">
+            <a href="#">ARG$</a>
+        </span>
+    </section>
+    </div>
     <header>
-        <section class="ofertas"> 
-             <span>Grandes ofertas en comederos </span>
-             <span class=Idioma>
-                 <a href="#">Español</a>
-             </span>
-             <span class="moneda">
-                 <a href="#">ARG$</a>
-             </span>
-        </section>
         <section class="menu">
             <a href="#">
             <img src="img/Logo.svg" alt="Logo de la pagina.">
@@ -29,29 +31,34 @@
                 <ul type="none">
                     <li> <a href="#"><i class="fas fa-paw"></i> Categorias</a></li>
                     <li> <a href="#"><i class="fas fa-paw"></i> Pets</a></li>
-                    <li> <a href="#"> <i class="fas fa-paw"></i> Nosotros</a></li>
-                    <li> <a href="#"> <i class="fas fa-paw"></i> Contactanos</a> </li>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Nosotros</a></li>
+                    <li> <a href="#"><i class="fas fa-paw"></i> Contactanos</a> </li>
                 </ul>
             </nav>
         </section>
     </header>
     <main>
         <section class="banner">
-            <img src="./img/Comida.PNG" alt="COMIDA">
             <div>
-            <h2>¡Es un placer tenerte aquí!</h2>
-            </div>
-            <div>
+            <span>
+            <p class="cartel1">¡Es un placer tenerte aquí!</p>
+            </span>
+            <span>
             <p>¡Comederos en descuento!</p>
+            </span>
+            <span>
+            <a href="#">COMEDEROS</a>
+            </span>
             </div>
-                <a href="#">COMEDEROS</a>
+        </div>
         </section>
-        <section class="ProductosDestacados">
+        <section class="productosDestacados">
             <img src="img/pawprint 1.svg" alt="Patita">
             <h2>Productos Destacados</h2>
                 <span> <a href="#"> Comederos </a></span>
                 <span> <a href="#"> Accesorios </a></span>
                 <span> <a href="#"> Comida </a></span>
+            <div class="productosconimg">    
             <ul type="none">
                 <li><ul type="none">
                     <li><img src="img/churrasquito.png" alt="Churrasquito"></li>
@@ -69,17 +76,19 @@
                     <li>$650</li>
                 </ul></li>
             </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <section class="contactos" >
+        <section class="contactos">
         <ul type="none">
             <li> <img src="./img/localizacion.png" alt="iconoloc"> Localidad </li>
             <li> <img src="./img/telefono.png" alt="iconotel"> Teléfono </li>
             <li> <img src="./img/correo.png" alt="iconocorreo"> Correo </li>
         </ul>
         </section>
-        <p id="derechos">Todos los derechos reservados Front End</p>
+        <p>Todos los derechos reservados Front End</p>
+        <span type="logofooter"></span>
     </footer>
 </body>
 </html>

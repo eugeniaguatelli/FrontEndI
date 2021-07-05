@@ -1,21 +1,59 @@
-*{
-    font-family: 'Roboto', sans-serif;
-    margin: 0pt;
+*{ box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-.ofertas{
+
+body{
+    font-family: 'Roboto', sans-serif; ;
+}
+
+.descuentos{
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 60px 5px 90px;
+}
+
+.descuentos span{
     color: white;
 }
+
+header {
+    background-color:#F0A83E ;
+    padding: 20px;
+    color: white;
+
+}
+header a{
+    width: 167px;
+    height: 25px;
+}
+
 .menu{
-   background-color: #F0A83E;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
-footer{
-    background-color: #3C2313;
-    color: white;
-    margin: 5pt;
+
+header ul{
+    display: flex;
+    gap: 15px;
 }
-#derechos{
-    background-color: black;
-    color: white;
+
+.banner{
+    display: flex;
+    background-image: url('../img/Comida.PNG');
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 30px;   
+    justify-content: flex-end;
+}
+
+.banner span{
     text-align: center;
+
+    
 }
+

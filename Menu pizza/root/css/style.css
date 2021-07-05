@@ -1,8 +1,16 @@
 *{
-    font-family:'Roboto', sans-serif;
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body > *{
+    padding: 20px;
 }
 
 header{
@@ -13,7 +21,6 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding: 20px;
 }
 
 header .logopizza{
@@ -22,7 +29,9 @@ align-items: center;
 width: 254px;
 height: 80px;
 }
-
+header span{
+    margin: 10px;
+}
 header nav ul{
     display: flex;
     gap: 13px;
@@ -30,16 +39,82 @@ header nav ul{
     align-items: center;
 }
 main{
+    font-size: 1.4rem;
     display: flex;
+    background-color: #E5E5E5;
+    gap: 10px;
 }
 .envio{
     background-image: url('../img/delivery.jpg');
-    width: 490px;
-    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 700px;
+    display: relative;
 }
+
 .envio h2{
     color: #FC200C;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+
 }
 .envio span{
     color: white;
+}
+.podio{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    gap: 150px;
+}
+
+.podio h2{
+    color: #FC200C;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-weight: 700;
+    align-items: center;
+}
+
+.contenedor1 .imagenpizza{
+    background-image: url('../img/PizzaFalling.jpg');
+    width: 184px;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor1 .lista ol{
+    margin-top: 30px;
+}
+.contenedor1 .lista li{
+    margin-bottom: 25px;
+}
+
+footer{
+    display: flex;
+    background-color: #222222;
+    color: #E5E5E5;
+    justify-content: space-between;
+    padding: 30px;
+}
+footer .logoinferior{
+    background-image: url('../img/Logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 105px;
+}
+footer .menuinferior li{
+    margin-bottom: 15px;
 }
